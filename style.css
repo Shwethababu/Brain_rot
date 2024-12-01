@@ -1,0 +1,61 @@
+body {
+  background :radial-gradient(circle, #0FF0B3 ,#036ED9)
+}
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+  letter-spacing: .5px;
+  
+}
+
+.card-container 
+{
+  width:80%;
+  
+  margin : 4rem auto;
+  display:grid;
+  
+  grid-template-columns: repeat(1,1fr);
+  
+  gap:1rem;
+ 
+}
+
+.card 
+{
+  padding:2rem;
+  margin:1rem;
+  box-shadow: 0 0 .4rem .4rem rgba(0,0,0,0.2);
+  background:white;
+  border-radius:0.5rem;
+  transition : .4s ease-in;
+  
+  
+}
+
+.card:hover {
+  background:rgb(226,226,226);
+}
+
+.card-heading {
+  color:blueviolet;
+  margin-bottom: .5rem;
+}
+
+.card-body {
+  color :darkblue;
+  
+}
+
+.page-heading {
+  text-align: center; 
+  margin-top: 2rem; 
+  margin-bottom: 2rem; 
+  font-size:4.0rem;
+  color:rgb(3, 29, 195) ;
+  font-weight: bold; 
+  letter-spacing: 1px;
+  font-style: italic; 
+}

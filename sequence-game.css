@@ -1,0 +1,141 @@
+body {
+  font-style:Helvetica;
+  padding: 1rem;
+  text-align: center;
+}
+
+.page-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+#sequence-selector {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 400px;
+  gap: 10px;
+}
+
+.event {
+  padding: 1rem;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: grab;
+  width: 100%;
+  text-align: center;
+}
+
+.event.dragging {
+  opacity: 0.5;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(4, 0, 255);
+  color: rgb(255, 251, 254);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  
+  background-color: #0056b3;
+}
+
+.result-message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.go-back-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color:rgb(255, 255, 255);
+  
+  background-color: rgb(4, 0, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.go-back-btn:hover {
+  background-color: #0056b3;
+}  *
+body {
+  background-color:rgb(33, 246, 168);
+}
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+  letter-spacing: .5px;
+  
+}
+
+.card-container 
+{
+  width:80%;
+  
+  margin : 4rem auto;
+  display:grid;
+  
+  grid-template-columns: repeat(1,1fr);
+  
+  gap:1rem;
+ 
+}
+
+.card 
+{
+  padding:2rem;
+  margin:1rem;
+  box-shadow: 0 0 .4rem .4rem rgba(0,0,0,0.2);
+  background:white;
+  border-radius:0.5rem;
+  transition : .4s ease-in;
+  
+  
+}
+
+.card:hover {
+  background:rgb(226,226,226);
+}
+
+.card-heading {
+  color:blueviolet;
+  margin-bottom: .5rem;
+}
+
+.card-body {
+  color :darkblue;
+  
+}
+
+.page-heading {
+  text-align: center; 
+  margin-top: 2rem; 
+  margin-bottom: 2rem; 
+  font-size: 2.5rem;
+  color:rgb(3, 29, 195) ;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; 
+  letter-spacing: 1px; 
+}
